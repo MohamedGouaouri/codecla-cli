@@ -1,0 +1,23 @@
+{
+  "name": "codecla-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.2",
+    "typescript": "^5.4.3"
+  },
+  "type": "module",
+  "dependencies": {
+    "@types/inquirer": "^9.0.7",
+    "commander": "^12.0.0",
+    "inquirer": "^9.2.17"
+  }
+}
